@@ -37,9 +37,9 @@ public class AuthConfig implements Serializable {
     private String auth;
 
     /**
-     * @since {@link com.github.dockerjava.core.RemoteApiVersion#VERSION_1_22}
+     * @since {@link com.github.dockerjava.core.RemoteApiVersion#VERSION_1_23}
      */
-    @JsonProperty("registrytoken")
+    @JsonProperty("identitytoken")
     private String registrytoken;
 
     public String getUsername() {
